@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+
+}
+.container{
+    height: 350px;
+    width: 430px;
+}
+.container .wrapper{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(160, 43, 43);
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.wrapper .image{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
